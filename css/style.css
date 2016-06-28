@@ -1746,6 +1746,13 @@ color: #495a62;
     font-weight:bold;
 }
 
+/*David's dynamic text for Testimonial page*/
+/*Meant to mimic dynamic text on About page*/
+.largerTxtTest:hover {
+    color: #000;
+    font-weight:bold;
+}
+
 #first{
   font-size: 1.2em;
 }
