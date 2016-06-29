@@ -1698,6 +1698,20 @@ font-size:.9em;
 text-align: center;
 color: #495a62;
 }
+
+/*Enlarges staff images on hover on staff page-MMD*/ 
+.enlarge-img  {} 
+.enlarge-img:hover  {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*Bolds staff name text on hover-MMD*/
+p.lead:hover {
+    font-weight: 800;
+}
+
 /*Dallin's, keeps text away from edges.*/
 #offEdges {
     margin-left: 20px;
