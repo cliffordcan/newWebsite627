@@ -610,9 +610,9 @@ h2, h4{
 	margin-top: 10px;
 }
 
+/* X on the contact popup */
 #closeBtn{
 	position: relative;
-	/*left: 287px;*/
 	left: 48%;
 	top: -10px;
 	text-decoration: none;
