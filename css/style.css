@@ -606,6 +606,24 @@ h2, h4{
 #contactInfo {
 	margin-top: 10px;
 }
+
+/* X on the contact popup */
+#closeBtn{
+	position: relative;
+	left: 48%;
+	top: -10px;
+	text-decoration: none;
+	font-size: 150%;
+	color: black;
+}
+
+@media only screen and (max-width: 479px){
+	#closeBtn{
+		left: 46%;
+		font-size: 200%;
+	}
+	
+}
  /* END CONTACT INFO PAGE_SPECIFIC CSS */
 
  
