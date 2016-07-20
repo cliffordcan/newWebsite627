@@ -609,6 +609,15 @@ h2, h4{
 #contactInfo {
 	margin-top: 10px;
 }
+
+#closeBtn{
+	position: relative;
+	left: 287px;
+	top: -10px;
+	text-decoration: none;
+	font-size: 150%;
+	color: black;
+}
  /* END CONTACT INFO PAGE_SPECIFIC CSS */
 
  
