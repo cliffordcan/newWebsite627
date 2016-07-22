@@ -5,12 +5,11 @@ html {
   }
 
 body {
-  max-width: 98.75%;
   padding-top: 115px;
   font-size: 1.4em; 
   font-family: 'Titillium Web', sans-serif;
   }
-
+  
 .header h1 {
     letter-spacing: 4px;
     /*color: #FFFFFF;*/
@@ -1056,16 +1055,19 @@ blockquote {
     height: 0 !important; } }
 
 @media (max-width: 1778px){
-	body{
-		max-width: 98%;
+	html, body{
+		max-width: 100%;
+		overflow-x: hidden;
 	}
 }
 
 @media (max-width: 768px) {
-  body {
-	max-width: 97.5%;
+  html, body {
+	max-width: 100%;
     padding: 0;
-    margin-top: 0px; }
+    margin-top: 0px;
+	overflow-x: hidden;
+	}
 	
   #indexHeaderText{
 	margin-top: -45px;
