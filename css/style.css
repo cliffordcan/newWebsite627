@@ -782,6 +782,12 @@ div.row p{  /*ADDED 2/9/16 TO GET SPACE BETWEEN THE SIDE OF TEXT AND GRID BOX BO
   bottom: auto;
 }
 
+@media only screen and (max-width: 479px){
+	.carousel-caption{
+		top: 42%;
+	}
+}
+
 .carousel-caption > p{
     font-size: 60%;
 }
