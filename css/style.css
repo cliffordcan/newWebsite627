@@ -1078,10 +1078,18 @@ blockquote {
   }
 
   footer {
-    max-width: 100%; }
+    max-width: 100%; 
+	
+	}
 
   footer .footer_nav {
-    font-size: 1em; }
+    font-size: 1em; 
+	display: none;
+	}
+	
+	footer .row{
+		padding-top: 15px;
+	}
 
   .header {
     /*background: rgba(45, 45, 48,1);*/
