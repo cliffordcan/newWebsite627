@@ -1739,6 +1739,15 @@ p.lead:hover {
 #first:hover{
   font-weight: bold;
 }
+
+@media only screen and (max-width: 479px){ /* For ABOUT Page on Mobile */
+	#first:hover{
+		font-weight: normal;
+	}
+	.largerTxt:hover{
+		font-weight: normal;
+	}
+}
 /*Dallin's, dynamic effect on PITC picture*/
 
 #about{
