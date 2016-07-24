@@ -296,6 +296,19 @@ h2, h4{
 	text-align: left !important;
 	margin-left: 10px; 
  }
+ 
+ 
+ @media only screen and (max-width: 479px){
+	#topList{
+		margin-left: 5px;
+	} 
+	#topListTitle{
+		display: flex;
+		text-align: center;
+	}
+}
+ 
+ 
  /*Dallin's - next three are mine, making the header on the index page interactive*/
 #indexHeader {
      color: #777;
@@ -1026,15 +1039,40 @@ blockquote {
         height: inherit !important;
     }
 
+@media only screen and (max-width: 479px) {
+  .testimonials-slider .testimonials-text, .testimonials-text:hover {
+    font-size: 1.15em;
+	color: red;
+    -webkit-transform: none; /* Safari and Chrome */
+       -moz-transform: none; /* Firefox */
+        -ms-transform: none; /* IE 9 */
+         -o-transform: none; /* Opera */
+            transform: none;	
+	} 
+}
 
 
 @media only screen and (min-width: 480px) {
-  .testimonials-slider .testimonials-text {
-    font-size: 1.5em; } }
+  .testimonials-slider .testimonials-text, .testimonials-text:hover {
+    font-size: 1.25em;
+    -webkit-transform: none; /* Safari and Chrome */
+       -moz-transform: none; /* Firefox */
+        -ms-transform: none; /* IE 9 */
+         -o-transform: none; /* Opera */
+            transform: none;	
+	} 
+}
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-  .testimonials-slider .testimonials-text {
-    font-size: 1.8em; } }
+  .testimonials-slider .testimonials-text, .testimonials-text:hover {
+    font-size: 1.45em;
+-webkit-transform: none; /* Safari and Chrome */
+	-moz-transform: none; /* Firefox */
+        -ms-transform: none; /* IE 9 */
+         -o-transform: none; /* Opera */
+            transform: none;		
+	} 
+}
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   /* Remove the padding we set earlier */
   .masthead,
