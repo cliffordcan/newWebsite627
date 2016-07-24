@@ -1747,6 +1747,11 @@ p.lead:hover {
 	.largerTxt:hover{
 		font-weight: normal;
 	}
+	#aboutVideo{
+		color: #004271;
+		font-style: italic;
+		font-size: 1.2em;
+	}
 }
 /*Dallin's, dynamic effect on PITC picture*/
 
