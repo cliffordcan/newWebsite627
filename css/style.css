@@ -885,6 +885,13 @@ body.stories div.row div blockquote {
 background: rgba(255, 255, 255, 0.7);
 margin: 150px 10px 10px; } 
 
+@media only screen and (max-width: 479px){
+	#img_1, #img_2, #img_3, #img_4, #img_5, #img_6, #img_7 {
+		opacity: 1;
+	}
+	
+}
+
 .contact {
     background: rgba(45, 45, 48,1) !important;
 }
@@ -1018,10 +1025,9 @@ blockquote {
 }
 
 @media only screen and (max-width: 479px){
-	.enrollmentMain{
+	.enrollmentMain, #testimonialTitle{
 		margin-top: 40px;
 	}
-	
 }
 .contactUs { /*Dallin*/
     font-weight: bold;
@@ -1759,6 +1765,46 @@ p.lead:hover {
 		font-style: italic;
 		font-size: 1.2em;
 	}
+}
+
+
+@media only screen and (max-width: 479px){
+
+  .flipWrap {
+	  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+
+  .flipWrap p {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .flipWrap iframe {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+
 }
 /*Dallin's, dynamic effect on PITC picture*/
 
