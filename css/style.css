@@ -654,8 +654,12 @@ h2, h4{
 		left: 46%;
 		font-size: 200%;
 	}
-	
 }
+
+select:invalid{
+	color: gray;
+}
+
  /* END CONTACT INFO PAGE_SPECIFIC CSS */
 
  
@@ -1864,6 +1868,7 @@ p.lead:hover {
 
 /* adding for super sweet fade in effect on about page - Josh */
 div#about-container { display: none; }
+
 
 
 /* 404 page css - Josh*/
