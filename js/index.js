@@ -67,7 +67,7 @@ $(document).ready(function () {
             $("header").hide();
             $(".text-center").scrollTop(0);
             $(".container").hide();
-            $("#coverPic").fadeOut(2000);
+            $("#coverPic").fadeOut(1000);
             $(".container").delay(2000);
             $("header").delay(2000);
             $(".container").fadeIn(200);

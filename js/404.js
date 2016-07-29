@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    		$('#container-404').fadeIn(2000);		
+    		$('#container-404').fadeIn(1000);		
 		});
 		
 		$(window).ready(function () { $(window).scroll(); });

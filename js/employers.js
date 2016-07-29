@@ -31,9 +31,9 @@ $(document).ready(function () {
             $("header").hide();
             $(".text-center").scrollTop(0);
             $(".container").hide();
-            $("#coverPic").fadeOut(2000);
-            $(".container").fadeIn(4000);
-            $("header").fadeIn(4000);
+            $("#coverPic").fadeOut(1000);
+            $(".container").fadeIn(2000);
+            $("header").fadeIn(2000);
             $(".text-center").scrollTop(0);
             $("navText").click(function () { $(this).removeClass("navText")})
             $(window).ready(function () { $(window).scroll() });

@@ -1397,21 +1397,18 @@ a.btn-lg:active
     opacity: 1;
 }
 
-
+/*
 .slideanim {visibility:hidden;}
 
 .slide {
-    /* The name of the animation */
     animation-name: slide;
     -webkit-animation-name: slide; 
      The duration of the animation 
     animation-duration: 10s; 
     -webkit-animation-duration: 1s;
-    /* Make the element visible */
     visibility: visible; 
 }
-
-
+*/
 
 .textBased p:first-child {
     font-size: 1.2em;
